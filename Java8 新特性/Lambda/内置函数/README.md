@@ -91,3 +91,4 @@ private boolean predicate(float score, Predicate<Float> pre) {
 
 ## 子接口
 
+![子接口](https://github.com/FishInWater-1999/Java_Notes/blob/master/Java8%20新特性/Lambda/内置函数/子接口.png)
