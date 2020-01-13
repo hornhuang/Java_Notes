@@ -72,5 +72,27 @@
 ## 最佳方案：CopyOnWrite
 
 - 写时复制，CopyOnWriteArrayList、CopyOnWriteArraySet、ConcurrentHashMap 
-- 原理：
+
+#### 原理：
+
+![](https://github.com/FishInWater-1999/Java_Notes/blob/master/Concurrent%20%E5%B9%B6%E5%8F%91/%E9%9B%86%E5%90%88%E4%B8%8D%E5%AE%89%E5%85%A8/copyOnWrite.gif)
+
+#### 源码
+
+- 注释，每种集合类的锁不同，这里拿 Java8 的 CopyOnWriteArrayList 举例
+
+```java
+    public void add(int index, E element) {
+        final ReentrantLock lock = this.lock;
+        lock.lock();
+        try {
+            ...
+        } finally {
+            lock.unlock();
+        }
+    }
+```
+
+- 每个 Java 版本也不同，Java 7 大多数用 synchronized(lock) 
+- java8 多数用 ReentranLock
 
