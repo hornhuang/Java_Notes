@@ -51,7 +51,7 @@ public class SetNotSafe {
 	}
 	
 	private void copyOnWrite(int num) {
-		List<String> list = new ConcurrentHashMap()<String>();
+		List<String> list = new CopyOnWriteArrayList<String>();
 		 
 		for (int i = 0; i < num; i++) {
 			new Thread(() ->  list.add(UUID.randomUUID().toString()), i + "").start();
