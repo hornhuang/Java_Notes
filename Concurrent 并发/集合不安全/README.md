@@ -61,6 +61,6 @@
 
 
 
-## 流程图
+## 类图
 
 ![继承关系]([https://github.com/FishInWater-1999/Java_Notes/blob/master/Concurrent%20%E5%B9%B6%E5%8F%91/%E9%9B%86%E5%90%88%E4%B8%8D%E5%AE%89%E5%85%A8/%E7%BB%A7%E6%89%BF%E5%85%B3%E7%B3%BB.png](https://github.com/FishInWater-1999/Java_Notes/blob/master/Concurrent 并发/集合不安全/继承关系.png))
