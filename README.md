@@ -1,17 +1,17 @@
 # Java_Notes
 
-![二分搜索 Binary search](https://img.shields.io/badge/二分搜索-BinarySearch-orange.svg?style=flat)
-![SdkVersion 28](https://img.shields.io/badge/二叉搜索树-BinarySearchTree-green.svg?style=flat)
-![rxjava2 2.2.3](https://img.shields.io/badge/二叉树-BinaryTree-red.svg?style=flat)
-![rxandroid 2.1.0](https://img.shields.io/badge/位运算-BitOperation0-grown.svg?style=flat)
-![okhttp3 3.12.1](https://img.shields.io/badge/动态规划-DynamicProgramming-blue.svg?style=flat)
+![Java 8](https://img.shields.io/badge/Java-8-orange.svg?style=flat)
+![JUC](https://img.shields.io/badge/juc-高并发-green.svg?style=flat)
+![Java 7](https://img.shields.io/badge/Java-7-red.svg?style=flat)
+![Set](https://img.shields.io/badge/set-集合-grown.svg?style=flat)
+![Thread](https://img.shields.io/badge/Thread-线程池-blue.svg?style=flat)
 ![glide 4.9.0](https://img.shields.io/badge/哈希表-HashTable-green.svg?style=flat)
-![排序 sort](https://img.shields.io/badge/排序-sort-orange.svg?style=flat)
-![SdkVersion 28](https://img.shields.io/badge/SdkVersion-28-green.svg?style=flat)
-![rxjava2 2.2.3](https://img.shields.io/badge/rxjava2-2.2.3-red.svg?style=flat)
-![rxandroid 2.1.0](https://img.shields.io/badge/rxandroid-2.1.0-grown.svg?style=flat)
-![okhttp3 3.12.1](https://img.shields.io/badge/okhttp3-3.12.1-blue.svg?style=flat)
-![glide 4.9.0](https://img.shields.io/badge/glide-4.9.0-green.svg?style=flat)
+![排序 sort](https://img.shields.io/badge/注解-annotation-orange.svg?style=flat)
+![SdkVersion 28](https://img.shields.io/badge/反射-invoke-green.svg?style=flat)
+![rxjava2 2.2.3](https://img.shields.io/badge/接口-interface-red.svg?style=flat)
+![rxandroid 2.1.0](https://img.shields.io/badge/类-class-grown.svg?style=flat)
+![okhttp3 3.12.1](https://img.shields.io/badge/URL-网络-blue.svg?style=flat)
+![glide 4.9.0](https://img.shields.io/badge/面试-interview-green.svg?style=flat)
 
 
 
