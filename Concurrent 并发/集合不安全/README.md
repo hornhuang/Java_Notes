@@ -71,3 +71,6 @@
 
 ## 最佳方案：CopyOnWrite
 
+- 写时复制，CopyOnWriteArrayList、CopyOnWriteArraySet、ConcurrentHashMap 
+- 原理：
+
