@@ -93,7 +93,7 @@ public class ConsumerAndSuplier {
 
 ## Java 8 开始
 
-- 使用 ReentrantLock 
+- 使用 ReentrantLock 可重入的互斥锁，分公平和不公平两种情况
 
 ```java
 class Cake {
@@ -147,4 +147,81 @@ class Cake {
 }
 ```
 
-- 
+- 首先是基本的 Lock 框架 lock.lock(); try {} catch( Exception e ) {} finally { lock.unlock() }
+- 用 condition 的 await() 和 signalAll() 方法替代 synchronize 内部锁的方法
+- lock 可以创造多个 condition 
+
+```java
+class Cake {
+	
+	private int num = 0;
+	private ReentrantLock lock = new ReentrantLock();
+	private Condition condition_1 = lock.newCondition();
+	private Condition condition_2 = lock.newCondition();
+	
+	public void order() throws Exception {
+		lock.lock();
+		try {
+			// 判断
+			while (num != 0) {
+				condition_1.await();
+			}
+			// 执行
+			num++;
+			System.out.println(num);
+			// 唤醒
+			condition_1.signalAll();
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			lock.unlock();
+		}
+	}
+	
+	public void make() throws Exception {
+		lock.lock();
+		try {
+			// 判断
+			while (num != 1) {
+				condition_1.await();
+			}
+			// 执行
+			num++;
+			System.out.println(num);
+			// 唤醒
+			condition_2.signalAll();
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			lock.unlock();
+		}
+	}
+	
+	public void sell() throws Exception {
+		lock.lock();
+		try {
+			// 判断
+			while (num != 2) {
+				condition_2.await();
+			}
+			// 执行
+			num-=2;
+			System.out.println(num);
+			// 唤醒
+			condition_1.signalAll();
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			lock.unlock();
+		}
+	}
+	
+	public int getNum() {
+		return num;
+	}
+	
+}
+```
+
+- 多把锁实现精确控制
+
