@@ -18,3 +18,11 @@
 - 实现了 RunnableTask 接口
 - RunnableTask 接口继承了 Callable 和 Runnable 接口，从而提高了程序的扩展性
 
+```java
+	public void test() throws InterruptedException, ExecutionException {
+		FutureTask<Integer> futureTask = new FutureTask<Integer>(() -> 1024);
+		new Thread(futureTask, "A").start();
+		System.out.println(futureTask.get() + "");
+	}
+```
+
