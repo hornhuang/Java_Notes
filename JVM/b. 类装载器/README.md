@@ -27,3 +27,9 @@
 - AppClassLoader -继承自-> Extension  -继承自-> Extension   -继承自-> Bootstrap 
 
 #### 
+
+#### stackOverFlowError
+
+- 是一个错误，是栈溢出的意思
+
+- 原因几乎都是由 **递归**或者其相互调用引发的 **死循环 **导致
