@@ -8,8 +8,6 @@
 
 ## 类型
 
-#### 粗说三个
-
 - Bootstrap 启动类加载器 C++
   - 加载 Java1.0 中的 object、String、Arraylist 等基类
   - (级别太高所以 java 控制台输出时 null)
@@ -18,7 +16,7 @@
   - 加载 /jre/lib/ext 文件夹下 jar 包中的类
 - AppClassLoader 应用程序类加载器 （自定义的类使用这个）
 
-- 用户自定义类加载器
+- 用户自定义类加载器 java.lang.ClassLoader 子类 
 
 
 
