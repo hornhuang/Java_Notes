@@ -22,7 +22,7 @@
 
 #### 继承关系
 
-- AppClassLoader -继承自-> Extension  -继承自-> Extension   -继承自-> Bootstrap 
+- AppClassLoader -继承自-> Extension  -继承自-> Bootstrap 
 
 #### 
 
