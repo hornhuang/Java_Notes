@@ -44,7 +44,7 @@
   - [生产者消费者](https://github.com/FishInWater-1999/Java_Notes/tree/master/Concurrent%20%E5%B9%B6%E5%8F%91/%E7%94%9F%E4%BA%A7%E8%80%85_%E6%B6%88%E8%B4%B9%E8%80%85)
   - [Callable](https://github.com/FishInWater-1999/Java_Notes/tree/master/Concurrent%20%E5%B9%B6%E5%8F%91/Callable)
 
-- [FutureTask 与 Callable](https://github.com/FishInWater-1999/Java_Notes/tree/master/Concurrent+并发/Callable)
+- [FutureTask 与 Callable](https://github.com/FishInWater-1999/Java_Notes/tree/master/Concurrent%20并发/Callable)
 
 ----------------------------------------------------------------------------------------------------------------------------------
   
