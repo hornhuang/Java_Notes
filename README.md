@@ -46,7 +46,13 @@
 
 - [https://github.com/FishInWater-1999/Java_Notes/tree/master/Concurrent%20%E5%B9%B6%E5%8F%91/Callable](https://github.com/FishInWater-1999/Java_Notes/tree/master/Concurrent 并发/Callable)
 
-- []()
+  ----------------------------------------------------------------------------------------------------------------------------------
+  
+#### bilibili
+  
+  - [HashMap底层数据结构？怎么解决hash碰撞？扩容机制是怎样的？](https://github.com/hornhuang/Java_Notes/blob/master/bilibili/2021/06/HashMap%E5%BA%95%E5%B1%82%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%EF%BC%9F%E6%80%8E%E4%B9%88%E8%A7%A3%E5%86%B3hash%E7%A2%B0%E6%92%9E%EF%BC%9F%E6%89%A9%E5%AE%B9%E6%9C%BA%E5%88%B6%E6%98%AF%E6%80%8E%E6%A0%B7%E7%9A%84%EF%BC%9F)
+
+  - []()
 
 # LICENSE
 
